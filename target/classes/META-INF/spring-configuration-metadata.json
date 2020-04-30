@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "algamoney",
+      "type": "br.com.mj.properties.AlgamoneyProperties",
+      "sourceType": "br.com.mj.properties.AlgamoneyProperties"
+    },
+    {
+      "name": "algamoney.seguranca",
+      "type": "br.com.mj.properties.AlgamoneyProperties$Seguranca",
+      "sourceType": "br.com.mj.properties.AlgamoneyProperties",
+      "sourceMethod": "public br.com.mj.properties.AlgamoneyProperties.Seguranca getSeguranca() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "algamoney.seguranca.cors",
+      "type": "java.lang.String",
+      "sourceType": "br.com.mj.properties.AlgamoneyProperties$Seguranca"
+    },
+    {
+      "name": "algamoney.seguranca.enable-https",
+      "type": "java.lang.Boolean",
+      "sourceType": "br.com.mj.properties.AlgamoneyProperties$Seguranca"
+    }
+  ],
+  "hints": []
+}
